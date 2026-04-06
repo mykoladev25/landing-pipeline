@@ -150,7 +150,7 @@ Business: ${osintData.name} | Desc: ${osintData.description} | Lang: ${osintData
 Reviews: ${JSON.stringify(osintData.reviews)} | Menu: ${JSON.stringify(osintData.menu)}
 
 1. DESIGN: Full-page, ultra-premium editorial design in ${osintData.language}. Hero, About, Services, Testimonials, Gallery, Footer.
-2. RESPONSIVE: MUST be fully responsive. ABSOLUTELY NO horizontal scrolling. Add \`overflow-x-hidden\` to body. Avoid \`w-screen\` with paddings.
+2. RESPONSIVE & BUG-FREE (CRITICAL): The layout MUST be 100% fully responsive. NO horizontal scrolling. Add \`overflow-x-hidden\` to body. Avoid \`w-screen\` with paddings. DO NOT USE \`opacity-0\` on elements without a bulletproof Alpine.js unhide mechanism. Default to elements being visible.
 3. INTERACTIVITY: Alpine.js interactive element.
 4. CRO MODAL: Alpine.js modal to contact the business.
 5. IMAGES: Use EXACTLY: ${validImages[0]}, ${validImages[1]}, ${validImages[2]}
