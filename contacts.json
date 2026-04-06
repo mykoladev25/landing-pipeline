@@ -1,0 +1,276 @@
+{
+  "categories": {
+    "coffee": {
+      "label": "Кав'ярні",
+      "description": "Specialty coffee, artisan roasters, café chains",
+      "keywords": [
+        "coffee",
+        "café",
+        "espresso",
+        "barista",
+        "roaster"
+      ],
+      "emoji": "☕"
+    },
+    "pizza": {
+      "label": "Піцерії",
+      "description": "Pizzeria, wood-fired, neapolitan, artisan pizza",
+      "keywords": [
+        "pizza",
+        "pizzeria",
+        "wood-fired",
+        "italian"
+      ],
+      "emoji": "🍕"
+    },
+    "burger": {
+      "label": "Бургер-бари",
+      "description": "Burger joints, craft burgers, street food",
+      "keywords": [
+        "burger",
+        "burgers",
+        "grill",
+        "street food"
+      ],
+      "emoji": "🍔"
+    },
+    "sushi": {
+      "label": "Суші-ресторани",
+      "description": "Sushi, ramen, japanese cuisine",
+      "keywords": [
+        "sushi",
+        "ramen",
+        "japanese",
+        "asian"
+      ],
+      "emoji": "🍣"
+    },
+    "fine_dining": {
+      "label": "Fine Dining",
+      "description": "High-end restaurants, michelin-quality",
+      "keywords": [
+        "fine dining",
+        "michelin",
+        "gastronomic",
+        "upscale"
+      ],
+      "emoji": "🍽️"
+    },
+    "laundry": {
+      "label": "Пральні",
+      "description": "Laundry service, dry cleaning, wash centers",
+      "keywords": [
+        "laundry",
+        "dry cleaning",
+        "wash",
+        "ironing"
+      ],
+      "emoji": "👔"
+    },
+    "fastfood": {
+      "label": "Фастфуд",
+      "description": "Fast food chains, quick service restaurants",
+      "keywords": [
+        "fast food",
+        "quick service",
+        "takeout",
+        "delivery"
+      ],
+      "emoji": "🍟"
+    },
+    "dental": {
+      "label": "Стоматології",
+      "description": "Dental clinic, orthodontics, teeth whitening",
+      "keywords": [
+        "dental",
+        "dentist",
+        "orthodontics",
+        "teeth"
+      ],
+      "emoji": "🦷"
+    },
+    "salon": {
+      "label": "Салони краси",
+      "description": "Hair salon, beauty salon, barber shop",
+      "keywords": [
+        "salon",
+        "hair",
+        "beauty",
+        "barber"
+      ],
+      "emoji": "💇"
+    },
+    "massage": {
+      "label": "Масаж-салони",
+      "description": "Massage therapy, spa, wellness center",
+      "keywords": [
+        "massage",
+        "spa",
+        "therapy",
+        "wellness"
+      ],
+      "emoji": "💆"
+    },
+    "gym": {
+      "label": "Тренажерні зали",
+      "description": "Fitness center, gym, crossfit studio",
+      "keywords": [
+        "gym",
+        "fitness",
+        "crossfit",
+        "training"
+      ],
+      "emoji": "💪"
+    },
+    "hotel": {
+      "label": "Готелі",
+      "description": "Hotel, accommodation, hostel, airbnb",
+      "keywords": [
+        "hotel",
+        "accommodation",
+        "hostel",
+        "rooms"
+      ],
+      "emoji": "🏨"
+    },
+    "photography": {
+      "label": "Фотографи",
+      "description": "Photography studio, portrait, wedding",
+      "keywords": [
+        "photography",
+        "photographer",
+        "studio",
+        "portrait"
+      ],
+      "emoji": "📸"
+    },
+    "florist": {
+      "label": "Квітники",
+      "description": "Flower shop, florist, arrangements",
+      "keywords": [
+        "flowers",
+        "florist",
+        "bouquet",
+        "arrangements"
+      ],
+      "emoji": "🌹"
+    },
+    "bakery": {
+      "label": "Пекарні",
+      "description": "Bakery, bread shop, pastry",
+      "keywords": [
+        "bakery",
+        "bread",
+        "pastry",
+        "cake"
+      ],
+      "emoji": "🥐"
+    }
+  },
+  "prospects": [],
+  "pipeline_config": {
+    "target_count_per_category": 50,
+    "regions": [
+      "Ukraine",
+      "Poland",
+      "Spain",
+      "Germany",
+      "UK"
+    ],
+    "outreach_template": "pitch_landing",
+    "auto_qualify": true,
+    "batch_size": 5
+  },
+  "pitch_templates": {
+    "coffee": {
+      "subject": "Your Coffee Shop Deserves Better Web Presence ☕",
+      "hook": "Premium coffee shops are losing customers daily because people can't find you online.",
+      "menu": [
+        {
+          "name": "House Flat White",
+          "price": "€3.60",
+          "desc": "Velvety microfoam, rich espresso"
+        },
+        {
+          "name": "Single-Origin Americano",
+          "price": "€3.20",
+          "desc": "Hand-poured, your choice of bean"
+        },
+        {
+          "name": "Seasonal Pastry",
+          "price": "€4.00",
+          "desc": "Pairs with our coffee"
+        }
+      ]
+    },
+    "pizza": {
+      "subject": "Your Pizzeria Needs a Modern Website 🍕",
+      "hook": "Pizza lovers can't find you without a proper online presence."
+    },
+    "burger": {
+      "subject": "Burger Joint Going Viral Needs a Website 🍔",
+      "hook": "Your burgers deserve customers who can discover you online."
+    },
+    "sushi": {
+      "subject": "Sushi Restaurant Online Discovery 🍣",
+      "hook": "Japanese cuisine deserves a website that matches its quality."
+    },
+    "laundry": {
+      "subject": "Modern Laundry Service Needs Digital Presence 👔",
+      "hook": "Customers trust laundries with online booking and transparency."
+    },
+    "fastfood": {
+      "subject": "Fast Food Chain Going Digital 🍟",
+      "hook": "Quick service restaurants need quick online ordering."
+    },
+    "dental": {
+      "subject": "Dental Practice Growth Starts Online 🦷",
+      "hook": "Modern patients book appointments online. Are you ready?"
+    },
+    "salon": {
+      "subject": "Beauty Salon Website for Bookings 💇",
+      "hook": "Hair clients search online before making appointments."
+    },
+    "massage": {
+      "subject": "Spa & Massage Online Booking System 💆",
+      "hook": "Wellness seekers expect to book online 24/7."
+    },
+    "gym": {
+      "subject": "Fitness Center Digital Transformation 💪",
+      "hook": "Modern gym-goers want seamless online experience."
+    },
+    "hotel": {
+      "subject": "Hotel Website & Booking Engine 🏨",
+      "hook": "Guests book hotels with confidence from your website."
+    },
+    "photography": {
+      "subject": "Photography Studio Portfolio Website 📸",
+      "hook": "Your photos deserve a showcase that sells your work."
+    },
+    "florist": {
+      "subject": "Flower Shop Online Ordering 🌹",
+      "hook": "Busy people order flowers online. Be their first choice."
+    },
+    "bakery": {
+      "subject": "Bakery Website & Pre-Orders 🥐",
+      "hook": "Fresh pastries need an online ordering system.",
+      "menu": [
+        {
+          "name": "Sourdough Loaf",
+          "price": "€4.50",
+          "desc": "Hand-crafted with natural levain"
+        },
+        {
+          "name": "Croissant",
+          "price": "€2.80",
+          "desc": "Butter-laminated, golden"
+        },
+        {
+          "name": "Custom Cake",
+          "price": "€40+",
+          "desc": "Weddings, events"
+        }
+      ]
+    }
+  }
+}
